@@ -68,7 +68,7 @@ public class Ex01_02 {
 
 		try {
 			stmt = conn.createStatement();
-			stmt.executeQuery(sql);
+			//stmt.executeQuery(sql);
 			rs = stmt.executeQuery(sql);
 			//rs -> list
 			if (rs.next()) {
