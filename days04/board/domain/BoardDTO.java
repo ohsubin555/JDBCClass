@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class BoardDTO {
 	
 	
-	 private int seq;
+	 private long seq;
 	 private String writer;
 	 private String pwd ;
 	 private String email ;
